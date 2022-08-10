@@ -64,12 +64,38 @@ $users = [
         'phones'=>[],
     ],  
 ];
-
+///print_r ($users);
+print_r   ($users[0]);
 ?>
 
+<div class="container">
+<div class="row">
+<div class="col-12">
+
+<?php
+
+foreach ($users as $index => $value) {
+      
+}
+?>
+                    <table class="table" id="taa">
+                        <thead>
+                          <tr>
+                        
 
 
-
+                            <th scope="col">name</th>
+                            <th scope="col">price</th>
+                            <th scope="col">address</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          
+                        </tbody>
+                      </table>
+                </div>
+                </div>
+                </div>
 
 </body>
 </html>

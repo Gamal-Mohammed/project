@@ -27,19 +27,19 @@
                     <h1>gradeCalc</h1>
                     <form >
                         <div class="form-group">
-                            <input  class="form-control" name="phy" placeholder="name">
+                            <input  class="form-control" name="phy" placeholder="Physics">
                         </div>
                         <div class="form-group">
-                            <input class="form-control" name="chemi" placeholder="price">
+                            <input class="form-control" name="chemi" placeholder="Chemistry">
                         </div>
                         <div class="form-group">
-                            <input class="form-control" name="bilo" placeholder="address">
+                            <input class="form-control" name="bilo" placeholder="Biology">
                         </div>
                         <div class="form-group">
-                            <input class="form-control" name="math" placeholder="address">
+                            <input class="form-control" name="math" placeholder="Mathematics ">
                         </div>
                         <div class="form-group">
-                            <input class="form-control" name="cimp" placeholder="address">
+                            <input class="form-control" name="cimp" placeholder="Computer">
                         </div>
                         
                         <div class="form-group">
