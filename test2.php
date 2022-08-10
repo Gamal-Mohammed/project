@@ -14,8 +14,8 @@
     if($_GET){
      $firstnum=   $_GET["number"];
     $secondN= $_GET["number2"];
-    $poer=$_GET["op"];
-    switch ($poer) {
+    $answer=$_GET["op"];
+    switch ($answer) {
         case '+':
             echo  $firstnum+$secondN;
             break;
