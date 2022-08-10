@@ -11,10 +11,18 @@
     <?php
      if ($_GET) {
         
-     
+    
+
+
+      if($_GET["phy"]>=100||$_GET["chemi"]>=100||$_GET["bilo"]>=100||$_GET["math"]>=100||$_GET["cimp"]>=100){
+           echo "max grade 100";
+
+      }else{
+          
       $sum=$_GET["phy"]+$_GET["chemi"]+$_GET["bilo"]+$_GET["math"]+$_GET["cimp"];
       
       $percant= $sum/500*100;
+      }
 
 }
     ?>
