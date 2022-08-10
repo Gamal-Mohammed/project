@@ -28,6 +28,9 @@
                     case '/':
                         echo  $firstnum/$secondN;
                         break;
+                        case '%':
+                            echo  $firstnum%$secondN;
+                            break;
         
         default:
             # code...
@@ -45,7 +48,7 @@
 <input type="submit" name="op" value="-">
 <input type="submit" name="op" value="*">
 <input type="submit" name="op" value="/">
-
+<input type="submit" name="op" value="%">
 </form>
 </body>
 </html>
