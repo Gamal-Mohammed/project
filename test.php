@@ -66,6 +66,7 @@ foreach ($prod as $key => $value) {///show acchoted array and index array
 ///requird///usess to include same code in all pages  defrance btewwen include in error defantion
 session_start();////put file seacin on server 
 $_SESSION['counter'] = 1;
+///headr///// transfer to other page . 
 
 
 
