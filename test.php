@@ -58,3 +58,15 @@ foreach ($prod as $key => $value) {///show acchoted array and index array
     echo $key."<br>".$value."<br>";
 }
 ///
+
+
+////include ///usess to include same code in all pages 
+
+///include_once //////usess to include same code in all pages one time 
+///requird///usess to include same code in all pages  defrance btewwen include in error defantion
+session_start();////put file seacin on server 
+$_SESSION['counter'] = 1;
+
+
+
+
