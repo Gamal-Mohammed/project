@@ -17,13 +17,20 @@ echo $_SESSION['resu']."  ".$_SESSION['test'];
 <body>
 <label for="">Are you satisfied with the level of cleanliness?</label>
 <label for=""></label>
+<br>
 <label for="">Are you satisfied with the prices of the services?</label>
 <label for=""></label>
+<br>
 <label for="">Are you satisfied with the nursing service</label>
 <label for=""></label>
+<br>
 <label for="">Are you satisfied with the level of the doctor?</label>
 <label for=""></label>
+<br>
 <label for="">Are you satisfied with the calmness in the hospital?</label>
 <label for=""></label>
 </body>
 </html>
+
+
+
