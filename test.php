@@ -52,10 +52,10 @@ $prod3=[
  ///loops
 
  for($i=0 ; $i <5 ;$i++){
-    echo "test <br>";
+  ///  echo "test <br>";
  }
 foreach ($prod as $key => $value) {///show acchoted array and index array
-    echo $key."<br>".$value."<br>";
+   /// echo $key."<br>".$value."<br>";
 }
 ///
 
@@ -64,9 +64,36 @@ foreach ($prod as $key => $value) {///show acchoted array and index array
 
 ///include_once //////usess to include same code in all pages one time 
 ///requird///usess to include same code in all pages  defrance btewwen include in error defantion
-session_start();////put file seacin on server 
-$_SESSION['counter'] = 1;
+///session_start();////put file seacin on server 
+///$_SESSION['counter'] = 1;
 ///headr///// transfer to other page . 
+
+///oop///
+
+//1- class include proprty and methode
+///compine simler tasks
+//object acces class data in global scope/
+class dat {
+    public $name;///define varable in class
+    public static $name2;///to convert it from object to give it to class
+    public const number=55;
+
+    public function login(){////define methode
+      
+       return $this;///return object use it when make chain function
+        //dat::number;////get conset value inside class
+     ///   self ////refer to current class
+
+    }
+}
+$use = new dat;///define class in global scope as object
+//$user->login;////call methode inside calss 
+////$user->name="55";
+//dat::number;////get conset value from class
+///this refer to current object
+$use->name="new";
+print_r ($use);
+///return ///return object 
 
 
 
