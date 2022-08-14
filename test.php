@@ -86,14 +86,29 @@ class dat {
 
     }
 }
-$use = new dat;///define class in global scope as object
+//$use = new dat;///define class in global scope as object
 //$user->login;////call methode inside calss 
 ////$user->name="55";
 //dat::number;////get conset value from class
 ///this refer to current object
-$use->name="new";
-print_r ($use);
+//$use->name="new";
+//print_r ($use);
 ///return ///return object 
+///inhertince 
+class nt extends dat{////inhertince 
+
+    ///final ////make function final and no override if it put in classs no inhertince happend
+
+
+
+}
+///acseess modifrs --> puplic protected privte
+
+
+///__CLASS__	 used inside classs
+
+
+///ClassName::class	 used inside and outside class 
 
 
 
