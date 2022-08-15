@@ -110,6 +110,51 @@ class nt extends dat{////inhertince
 
 ///ClassName::class	 used inside and outside class 
 
+///oop-encpaslation
+
+
+///password_hash('rasmuslerdorf', PASSWORD_ARGON2I); to encript password
+
+class info {
+    public $name;
+    private $password;
+   public function getpasswordr(){
+
+
+   }
+   public function setpassword($password){
+
+     $this->password=$password;
+}
+
+}
+
+///oop-apstraction show neccasry info and hide unecery info 
+
+abstract class  infor{///cant create object from it 
+
+    public $name;
+    private $password;
+    public abstract function login();////used in abstract class if class extands from abstract class method shoul give it body
+    
+
+}
+
+///interface
+interface crad{///cant create object from containe abstract  method only 
+    
+     function log();
+ 
+}
+
+class nine implements crad {///inhernt from interface using implements and class can implements many interface
+  public function log(){
+      
+    }
+}
+
+
+
 
 
 
