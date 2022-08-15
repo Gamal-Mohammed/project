@@ -153,6 +153,26 @@ class nine implements crad {///inhernt from interface using implements and class
     }
 }
 
+///trait  used becuse php single inheritance
+
+////polymartpisem allow obejcts fro defrant class     in same massge 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
