@@ -164,8 +164,35 @@ trait test{
 }
 ///namespace is virtual dir orgnize app file alllow you to use same class many time
 
+////data-base
 
+///entity
+///attrbute
+///Composite add atttr inside atrrr has companet 
+////Multivalued in case is there many value 
+///Derived calcleted atrr  
 
+///relationship
+
+///Associative entity 
+///recrsive relation connect one entity to him self 
+
+///rs relation scheme
+////entity convert to table
+///any attr convert to column
+////1-if attr uniqie searach in entity how many uniqe attr take one of them prrimry key and leave other as uniqe
+
+///2- attr Composite convert componts to column and ignore attr
+///3- Derived attr cant convert to rs
+///4- attr optinal convert to column optinal
+///5- attr multivalue convert to new table include column forigin key names rename come form what table and renam it ex phons --> phone  
+
+///relation one to many convert one to many primry ke in one go to forign key on many 
+///one to one mandotry convert to optinal primary key on mandotry convert to forigin in optinal
+///many to many convert to new table table name same realtion name has tow forign keys compist primary
+///forigin key names rename come form what table and renam it ex phons --> phone
+///attr multivalue 
+///weak entity convert to table but has composit primry key id of weak entity pluss forigin key
 
 
 
