@@ -195,6 +195,19 @@ trait test{
 ///weak entity convert to table but has composit primry key id of weak entity pluss forigin key
 
 
+////data baese
+///on delete-->when delete in table or parent table 
+//on update when update on primry key on parent table
+
+///on delete--> cascade make change on pareant and child
+///on delete-->set null make it null
+///on delete-->no action/restrict prevant if parent has child 
+
+
+///on update--> cascade make change on pareant and child
+///on update-->set null make it null
+///on update-->no action/restrict prevant if parent has child 
+
 
 
 
